@@ -4,7 +4,7 @@ import bpy
 class JSWK_PT_ToggleDisplacement(bpy.types.Panel):
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
-    bl_category = "Material"
+    bl_category = "Displacement"
     bl_context = "objectmode"
     bl_options = {'DEFAULT_CLOSED'}
     bl_idname = "JSWK_PT_OutlineGenerator"
