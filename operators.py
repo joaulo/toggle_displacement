@@ -10,9 +10,9 @@ def get_shader_node_by_type(material, node_type):
     return mat_node
 
 class JSWK_OT_DisconnectDisplacement(bpy.types.Operator):
-    bl_idname = "toggledisplacement.disconnect_displacement"
-    bl_label = "Import Images"
-    bl_description = "Import new reference images"
+    bl_idname = "jswk.disconnect_displacement"
+    bl_label = "Disconnect"
+    bl_description = "Disconnect displacement for selected objects"
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
@@ -35,9 +35,9 @@ class JSWK_OT_DisconnectDisplacement(bpy.types.Operator):
             
 
 class JSWK_OT_ConnectDisplacement(bpy.types.Operator):
-    bl_idname = "toggledisplacement.connect_displacement"
-    bl_label = "Import Images"
-    bl_description = "Import new reference images"
+    bl_idname = "jswk.connect_displacement"
+    bl_label = "Connect"
+    bl_description = "Connect displacement for selected objects"
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
